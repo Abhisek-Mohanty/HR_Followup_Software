@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.frm {
+  width: 900px;
+  height: 100%;
+  font-size: x-large;
+  font-family: Arial, Helvetica, sans-serif;
+  /* background-color: rgb(209, 169, 248); */
+  border: 2px solid black;
+  position: relative;
+  top: 90px;
+  left: 20%;
+  padding: 100px;
+  background-image: linear-gradient(#cef576, #84fb95);
+}
+.frm input {
+  resize: vertical;
+  width: 900px;
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid black;
+  /* margin-left: 10px; */
+}
+.frm select {
+  width: 900px;
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+.nav {
+  list-style: none;
+  width: 100px;
+  background-color: #013244;
+  height: 754px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+.nav a {
+  text-decoration: none;
+  color: black;
+}
+.innericon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+}
+.innericon li {
+  color: #60818f;
+}
+
+.uppernav {
+  width: 100%;
+  height: 50px;
+  background-color: rgb(243, 243, 243);
+  position: fixed;
+  top: 0%;
+  z-index: 1;
+}
+.frm label {
+}
+.back {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(5, 94, 31);
+  background-image: url("./stock/747846.jpg");
+  background-size: cover;
+}
+.mainhome {
+  position: fixed;
+  font-size: xx-large;
+  left: 10%;
+  top: 50%;
+  font-weight: 700;
+  text-align: center;
+}
+.container {
+  height: 100px;
+  width: 100px;
+  background-color: #84fb95;
+}
+.MainOneBody {
+  position: relative;
+  width: max-content;
+  left: 10%;
+  font-weight: 700;
+}
+.subBody {
+  /* //OneDetails */
+  position: relative;
+  left: 12%;
+  width: 900px;
+}
+.newBody {
+  position: absolute;
+  left: 15%;
+  top: 15%;
+  width: 700px;
+}
+.DisDash {
+  position: absolute;
+  right: 0;
+}
+.locDash {
+  width: 800px;
+  height: auto;
+  position: fixed;
+  left: 25%;
+  top: 45%;
+  margin: 2px;
+}
+.Dash {
+  width: max-content;
+  height: max-content;
+}
+.locDash h3 {
+  position: absolute;
+  right: 0;
+  font-weight: 600;
+}
+.DH {
+  font-weight: 700;
+  position: fixed;
+  top: 10%;
+  left: 10%;
+}
+.compie {
+  position: fixed;
+  left: 63%;
+  top: 10%;
+  width: 200px;
+  height: auto;
+}
+.compie h3 {
+  font-weight: 600;
+}
